@@ -1,12 +1,11 @@
 import os
 import time
 import random
-import sys
 
 def color(color="reset", format="none"):
-  print(" ")
-  pass
-"""
+  print(" ")  #remove for color
+  pass  #remove for color
+"""  
   print("\033[0m")
   if str.lower(color) == "yellow":
     print("\033[33m")
@@ -39,9 +38,7 @@ def color(color="reset", format="none"):
 """
 
 bait = [
-    "mickey mouse", "hulk", "jake the dog", "spider man", 'donald duck',
-    'daffy duck', 'wood pickaxe', 'netherite pickaxe', 'java', 'python',
-    'shopping cart', 'corvette', 'trash can', 'gold bar'
+    "mickey mouse", "hulk", "jake the dog", "spider man", 'donald duck', 'daffy duck', 'wood pickaxe', 'netherite pickaxe', 'java', 'python', 'shopping cart', 'corvette', 'trash can', "batman", "tung tung tung sahour", "golden knight", "rey skywalker", "voldemort", "super man", "kryptonite", "dirt", "diamonds", "pneumonoultramicroscopicsilicovolcanoconiosis", "doctor strange", "bombadiro krokadiro", "lockheed martin f-35 lightning", "apple", 'gold bar'
 ]
 car = [
     "gtr nismo 2020", "dodge charger", "f150", "silverado", "dodge viper",
